@@ -1,0 +1,37 @@
+1. 'dotenv' npm package.
+    It allows you to store configuration settings for your application in a separate file (.env). 
+    This includes API keys, database URLs, authentication credentials, and other configuration parameters.
+
+    It enables you to configure your application differently for various environments (development, testing, production) 
+    without modifying the actual code. 
+    Each environment can have its own .env file with specific configurations.
+
+    It helps maintain consistency across different environments. The same codebase can be deployed to multiple environments, 
+    and each environment can have its own configuration without requiring changes to the code.
+
+
+2. CORS- Cross Origin Resource Sharing
+    It is a security feature implemented by web browsers to control how web pages in one domain can request 
+    and interact with resources hosted on another domain. 
+
+    The cors middleware allows you to configure various options, including:
+    
+    origin: Specifies which origins are allowed to access the resources.
+    methods: Specifies the HTTP methods that are allowed when accessing the resources.
+    allowedHeaders: Specifies which headers are allowed in the actual request.
+
+3. Thunder Client
+    It is a REST client extension for Visual Studio Code.
+
+    It provides a user-friendly interface for creating and sending HTTP requests, 
+    allowing developers to test their APIs directly within the VS Code environment.
+
+4. The command 'npx tsc --init' initializes a TypeScript project by creating a tsconfig.json file in the current working directory.
+
+    If TypeScript (tsc) is not installed globally, npx will temporarily install it from the npm registry.
+    The TypeScript compiler (tsc) will generate a basic tsconfig.json file in the current working directory.
+
+5. 'ts-node' is a TypeScript execution environment for Node.js. 
+    
+    It allows you to run TypeScript code directly in Node.js without the need to transpile it to JavaScript first. 
+    It seamlessly integrates TypeScript with Node.js, providing a convenient way to develop and execute TypeScript scripts or applications.
