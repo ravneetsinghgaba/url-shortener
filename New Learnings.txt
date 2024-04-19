@@ -35,3 +35,17 @@
     
     It allows you to run TypeScript code directly in Node.js without the need to transpile it to JavaScript first. 
     It seamlessly integrates TypeScript with Node.js, providing a convenient way to develop and execute TypeScript scripts or applications.
+
+6. express.Router()
+
+    express.Router() is a class that helps in creating modular, mountable route handlers. It provides a way to separate the routes for 
+    different parts of your application and organize them in a more maintainable and structured manner.
+
+7. nanoid
+
+    nanoid is a small, secure, and URL-friendly unique ID generator for JavaScript. It is often used in web development 
+    to generate unique identifiers for various purposes, such as creating unique keys for objects, generating random strings, 
+    or assigning unique IDs to database records.
+
+    The generated IDs are URL-friendly, meaning that they consist of only URL-safe characters. This makes them suitable for use 
+    in URLs, query parameters, and other contexts where special characters need to be avoided.
