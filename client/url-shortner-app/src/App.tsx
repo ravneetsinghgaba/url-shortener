@@ -12,7 +12,6 @@ const App: React.FunctionComponent<IAppProps> = () => {
     <>
       <Header />
       <Container />
-      <DataTable />
       <Footer />
     </>
   )
