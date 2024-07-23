@@ -2,11 +2,11 @@ import * as React from 'react';
 import axios from 'axios';
 import { serverUrl } from '../../helpers/Constants';
 
-interface IFormContainerProps {
+interface FormContainerProps {
     updateReloadState: () => void;
 }
 
-const FormContainer: React.FunctionComponent<IFormContainerProps> = (props) => {
+const FormContainer: React.FunctionComponent<FormContainerProps> = (props) => {
     const { updateReloadState } = props;
     const [fullUrl, setFullUrl] = React.useState<string>("");
 

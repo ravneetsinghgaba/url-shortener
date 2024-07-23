@@ -10,8 +10,9 @@ const port = process.env.PORT || 5001;
 
 const app = express();
 
-//using middleware 
+//using middleware, based on the body-parser middleware
 app.use(express.json());
+//parsing incoming requests with URL-encoded payloads
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
     origin: "http:localhost:3000",

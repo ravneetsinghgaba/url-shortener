@@ -13,7 +13,7 @@ exports.deleteUrl = exports.getUrl = exports.getAllUrl = exports.createUrl = voi
 const shortUrl_1 = require("../model/shortUrl");
 const createUrl = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        console.log("The fullUrl is " + req.body.fullUrl);
+        //console.log("The fullUrl is " + req.body.fullUrl);
         const { fullUrl } = req.body;
         const urlFound = yield shortUrl_1.urlModel.find({ fullUrl });
         if (urlFound.length > 0) {

@@ -5,10 +5,10 @@ import axios from 'axios';
 import { serverUrl } from '../../helpers/Constants';
 import DataTable from '../DataTable/DataTable';
 
-interface IContainerProps {
+interface ContainerProps {
 }
 
-const Container: React.FunctionComponent<IContainerProps> = () => {
+const Container: React.FunctionComponent<ContainerProps> = () => {
     const [data, setData] = React.useState<UrlData[]>([]);
     const [reload, setReload] = React.useState<Boolean>(false);
     

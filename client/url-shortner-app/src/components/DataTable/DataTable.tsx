@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 import { serverUrl } from '../../helpers/Constants';
 import axios from 'axios';
 
-interface IDataTableProps {
+interface DataTableProps {
     data: UrlData[];
     updateReloadState: () => void;
 }
 
-const DataTable: React.FunctionComponent<IDataTableProps> = (props) => {
+const DataTable: React.FunctionComponent<DataTableProps> = (props) => {
     const { data, updateReloadState } = props;
     console.log(data)
     const renderTableData = () => {

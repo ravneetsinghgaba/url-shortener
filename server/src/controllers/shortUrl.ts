@@ -3,7 +3,7 @@ import { urlModel } from '../model/shortUrl';
 
 export const createUrl = async (req: express.Request, res: express.Response) => {
     try {
-        console.log("The fullUrl is " + req.body.fullUrl);
+        //console.log("The fullUrl is " + req.body.fullUrl);
         const { fullUrl } = req.body;
         const urlFound = await urlModel.find({ fullUrl });
         if (urlFound.length > 0) {

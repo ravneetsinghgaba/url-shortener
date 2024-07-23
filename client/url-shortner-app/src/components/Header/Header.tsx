@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-interface IHeaderProps {
+interface HeaderProps {
 }
 
-const Header: React.FunctionComponent<IHeaderProps> = (props) => {
+const Header: React.FunctionComponent<HeaderProps> = () => {
   return (
     <div className='bg-sky-900/90 '>
         <div className='container p-2 mx-auto'>
